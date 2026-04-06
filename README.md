@@ -7,4 +7,8 @@ A ideia é recriar uma card (estilo pokémon?) sobre algum personagem. Escolhi F
 
 As tags do HTML permanecem originais.
 
-Background vai ser um azul leve, alguns detalhes em roxo e vermelho. Verei mais o que consigo fazer...
+Background vai ser um azul leve, alguns detalhes em roxo e vermelho.
+
+Me incomoda um pouco o fato de não poder alterar as tags. Terei que pesquisar como redimensionar imagem e fazer um border para ficar com cara de carta.
+
+*Ainda falta aquele tchan do frontender.
