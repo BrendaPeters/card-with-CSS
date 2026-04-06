@@ -11,4 +11,9 @@ Background vai ser um azul leve, alguns detalhes em roxo e vermelho.
 
 Me incomoda um pouco o fato de não poder alterar as tags. Terei que pesquisar como redimensionar imagem e fazer um border para ficar com cara de carta.
 
-*Ainda falta aquele tchan do frontender.
+Pesquisei e estudei um pouco mais sobre CSS, achei esse site bem bacaninha que me explicou melhor alguns truques: https://css-tricks.com/almanac/properties/
+
+Também utilizei o https://cssgradient.io/ pois acho bonito usar gradiente :)
+
+Organizei as chamadas de estilo, pois estava me perdendo bastante nos testes (provavelmente ai esqueci de commitar rs)
+Irei ajustar as cores, melhorar os displays, fixar a altura do card e fazer mais outros testes de estilo.

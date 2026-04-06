@@ -8,18 +8,37 @@
 <body>
     <style>
     .card {
-      background-color: #d6eff7;
-      border-radius: 10px, #03c0ff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      max-width: 100%;
       width: 800px;
-      padding: 20px;
+      margin: 0 auto;
+      display: block;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
       text-align: center;
+      border: 6px solid #a91af0;
+      box-shadow:
+        0 0 0 3px #fb3f4c,
+        0 0 0 6px #a91af0;
+      background: #eee4ae;
+      background: radial-gradient(circle, rgba(238, 228, 174, 1) 0%, rgba(148, 187, 233, 0.9) 100%);
     }
-    .img
-    {
+    .card img {
       width: 100%;
       height: auto;
-      border-radius: 10px;
+      display: block;
+      border: 6px solid #0e0c0c;
+      border-radius: 15px;
+      box-shadow:
+      0 0 0 3px #7c7c7c,
+      0 0 0 6px #2b1735;
+    }
+    .img {
+      width: 40%;
+      height: auto;
+      border-radius: 7px;
+      display: block;
     }
     .descricao {
       font-style: oblique;
@@ -27,19 +46,45 @@
       color: #333;
       margin-top: 10px;
     }
-    .habilidades {
-      font-style: oblique;
-      font-size: 20px;
-      color: #333;
-      margin-top: 20px;
-    }
     .caracteristicas {
       font-style: oblique;
       font-size: 16px;
       color: #333;
       margin-top: 10px;
+      background: rgba(251, 63, 76, 0.08);
+      border-radius: 8px;
+      padding: 8px
     }
-
+    .caracteristicas h2 {
+      font-size: 16px;
+      color: #fb3f4c;
+      margin-bottom: 6px;
+    }
+    .habilidades {
+      font-style: oblique;
+      font-size: 20px;
+      color: #333;
+      margin-top: 20px;
+      background: rgba(169, 26, 240, 0.08);
+      border-radius: 8px;
+      padding: 8px
+    }
+    .habilidades h2 {
+      font-size: 16px;
+      color: #a91af0;
+      margin-bottom: 6px;
+    }
+    .titulo h1 {
+      font-size: 24px;
+      color: #fb3f4c;
+      margin-top: 10px;
+    }
+    .descricao p {
+      font-style: oblique;
+      font-size: 18px;
+      color: #333;
+      margin-top: 10px;
+    }
     </style>
 
     <main class="container">
@@ -58,13 +103,11 @@
     <div class="caracteristicas">
       <h2>Características</h2>
       <p><strong>Classe:</strong> Mago</p>
-      <p><strong>Nível:</strong> 999</p>
+      <p><strong>Nível:</strong> +999</p>
       <p><strong>Elemento:</strong> Magia</p>
     </div>
   </section>
 </main>
 </head>
-<body>
-    
 </body>
 </html>
