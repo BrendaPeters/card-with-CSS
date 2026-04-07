@@ -7,59 +7,61 @@
 </head>
 <body>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cinzel+Decorative:wght@700&display=swap');
     .card {
-      padding: 15px;
+      padding: 16px;
       max-width: 100%;
-      width: 800px;
+      width: 700px;
       margin: 0 auto;
       display: block;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
       overflow: hidden;
       text-align: center;
-      border: 6px solid #a91af0;
+      border: 5px solid #4dd5ff;
       box-shadow:
-        0 0 0 3px #fb3f4c,
-        0 0 0 6px #a91af0;
-      background: #eee4ae;
+        0 0 0 2px #ffdd6c,
+        0 0 0 5px #4dd5ff,
+        0 0 0 8px #4dd5ff,
+        0 0 40px rgba(77, 213, 255, 0.4);
       background: radial-gradient(circle, rgba(238, 228, 174, 1) 0%, rgba(148, 187, 233, 0.9) 100%);
     }
     .card img {
       width: 100%;
       height: auto;
       display: block;
-      border: 6px solid #0e0c0c;
-      border-radius: 15px;
+      border: 4px solid #0e0c0c;
+      border-radius: 10px;
       box-shadow:
-      0 0 0 3px #7c7c7c,
-      0 0 0 6px #2b1735;
+      0 0 0 2px #7c7c7c,
+      0 0 0 4px #2b1735,
+      0 0 15px rgba(77, 213, 255, 0.5);
     }
     .img {
-      width: 40%;
+      width: 100%;
       height: auto;
+      margin: 0 auto;
       border-radius: 7px;
       display: block;
     }
+    .card h1 {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 25px;
+      font-weight: 700;
+      color: #1a0a2e;
+      margin: 12px 0 4px;
+      letter-spacing: 1px
+    }
     .descricao {
-      font-style: oblique;
-      font-size: 18px;
-      color: #333;
-      margin-top: 10px;
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 12px;
+      color: #2b1a4a;
+      margin: 6px 8px;
+      line-height: 1.5;
+      border-top: 1px solid #ffed4d81;
+      border-bottom: 1px solid #ffed4d81;
+      padding: 6px 0;
     }
-    .caracteristicas {
-      font-style: oblique;
-      font-size: 16px;
-      color: #333;
-      margin-top: 10px;
-      background: rgba(251, 63, 76, 0.08);
-      border-radius: 8px;
-      padding: 8px
-    }
-    .caracteristicas h2 {
-      font-size: 16px;
-      color: #fb3f4c;
-      margin-bottom: 6px;
-    }
+
     .habilidades {
       font-style: oblique;
       font-size: 20px;
@@ -70,27 +72,66 @@
       padding: 8px
     }
     .habilidades h2 {
+      font-family: 'Cinzel Decorative', serif;
       font-size: 16px;
-      color: #a91af0;
-      margin-bottom: 6px;
+      color: #000000;
+      margin: 0 0 6px;
     }
-    .titulo h1 {
-      font-size: 24px;
-      color: #fb3f4c;
-      margin-top: 10px;
+    .habilidades ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px
     }
-    .descricao p {
-      font-style: oblique;
-      font-size: 18px;
-      color: #333;
-      margin-top: 10px;
+    .habilidades li {
+      font-family: 'Cinzel Decorative', serif;
+      background: #a91af011;
+      border-radius: 4px;
+      padding: 3px 8px;
+      font-size: 14px;
+    }
+    .caracteristicas {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 15px;
+      color: #1a0a2e;
+      margin-top: 8px;
+      background: rgba(255, 221, 108, 0.15);
+      border: 1px solid rgba(255, 221, 108, 0.5);
+      border-radius: 8px;
+      padding: 8px 10px
+    }
+    .caracteristicas h2 {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 15px;
+      color: #7a4a00;
+      margin: 0 0 6px;
+    }
+    .caracteristicas p {
+      margin: 3px 0;
+      font-size: 12px;
+    }
+    .caracteristicas strong {
+      color: #7a4a00;
     }
     </style>
-
+    <style>
+      html, body {
+        min-height: 100%;
+        margin: 0;
+      }
+      body { 
+        background-image: url('fundo.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    </style>
     <main class="container">
   <section class="card">
     <img src="frieren.jpg" alt="Imagem do personagem">
-    <h1>Frieren, a Assasina</h1>
+    <h1>FRiereN, a AssassInA</h1>
     <p class="descricao">Uma maga lendária, conhecida por ajudar a derrotar o Rei Demônio.</p>
     <div class="habilidades">
       <h2>Magias</h2>

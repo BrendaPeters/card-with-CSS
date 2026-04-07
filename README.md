@@ -17,3 +17,11 @@ Também utilizei o https://cssgradient.io/ pois acho bonito usar gradiente :)
 
 Organizei as chamadas de estilo, pois estava me perdendo bastante nos testes (provavelmente ai esqueci de commitar rs)
 Irei ajustar as cores, melhorar os displays, fixar a altura do card e fazer mais outros testes de estilo.
+
+As cores que utilizei inicialmente foram para testes visuais.
+
+Ajuste em todos os estilos, mudança das cores, adição de um background e finalmente uma fonte bonita.
+
+Lapidação e ajustes finais de resolução.
+
+Refs: https://frieren.fandom.com/wiki/Frieren#Trivia
